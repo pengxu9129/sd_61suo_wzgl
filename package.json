@@ -1,0 +1,39 @@
+{
+  "name": "sd_61suo_wzgl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "json2mysql": "babel-node app/json-to-mysql.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "admin-lte": "^2.4.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.7",
+    "datatables.net": "^1.10.16",
+    "datatables.net-bs": "^1.10.16",
+    "express": "^4.16.2",
+    "fastclick": "^1.0.6",
+    "html-webpack-externals-plugin": "^3.6.0",
+    "jquery": "^3.0.0",
+    "jquery-slimscroll": "^1.3.8",
+    "json2mysql": "^0.3.3",
+    "mysql2": "^1.5.1",
+    "popper.js": "^1.12.9",
+    "style-loader": "^0.19.1",
+    "vue": "^2.5.11",
+    "webpack": "^2.7.0",
+    "xls-to-json": "^0.4.0"
+  },
+  "devDependencies": {}
+}
